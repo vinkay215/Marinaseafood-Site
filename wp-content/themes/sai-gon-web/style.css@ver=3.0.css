@@ -1,0 +1,67 @@
+/*
+Theme Name: sai-gon-web
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+.header .flex-row.header-inner{
+	width:100%;
+	max-width:initial;
+}
+.header-main .nav-left{
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+}
+.header-main .nav-right {
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+header#header,.header-bg-color, .header-wrapper {
+    background-color: #064772!important;
+}
+.book-table .col{
+	padding-bottom:0px;
+}
+.wpcf7{
+	color:#064772;
+}
+::-webkit-input-placeholder { /* Edge */
+  color: #064772;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #064772;
+}
+
+::placeholder {
+  color: #064772;
+}
+input[type='email'], input[type='date'], input[type='search'], input[type='number'], input[type='text'], input[type='tel'], input[type='url'], input[type='password'], textarea, select, .select-resize-ghost, .select2-container .select2-choice, .select2-container .select2-selection,input[type='email']:focus, input[type='search']:focus, input[type='number']:focus, input[type='tel']:focus, input[type='text']:focus, input[type='password']:focus, textarea:focus, select:focus{
+	color:#064772;
+}
+.videohome{
+    margin-bottom:0px;
+    height:0px;
+    padding-bottom:56.6%;
+    position:relative;
+}
+.videohome iframe{
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+div#newsletter-signup-link {
+    width: 70%;
+}
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+div#newsletter-signup-link {
+    width: 100%;
+}
+.mfp-container.mfp-s-ready.mfp-inline-holder {
+    padding: 10px;
+}
+}
